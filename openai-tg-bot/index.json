@@ -9,12 +9,12 @@
         {
           "text": "step1.md"
         }
-      ]
-    },
-    "assets": {
+      ],
+      "assets": {
         "host01": [
           {"file": ".env", "target": "~/", "chmod": "+w"}
         ]
+      }
     },
     "backend": {
       "imageid": "ubuntu"
