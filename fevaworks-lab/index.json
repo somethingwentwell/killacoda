@@ -7,9 +7,9 @@
       },
       "steps": [
         {
-          "text": "step1.md",
-          "foreground": "foreground.sh"
-        }
+          "text": "step1/step1.md",
+          "foreground": "step1/foreground.sh",
+        },
       ]
     },
     "backend": {
