@@ -1,0 +1,22 @@
+{
+    "title": "Teams Bot with OpenAI GPT3",
+    "description": "Learn how to build a Teams bot that uses Azure OpenAI's GPT-3 to generate responses to user messages.",
+    "details": {
+      "intro": {
+        "text": "intro.md"
+      },
+      "steps": [
+        {
+          "text": "step1.md"
+        }
+      ],
+      "assets": {
+        "host01": [
+          {"file": "**", "target": "~/", "chmod": "+w"}
+        ]
+      }
+    },
+    "backend": {
+      "imageid": "ubuntu"
+    }
+  }

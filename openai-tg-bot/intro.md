@@ -1,3 +1,3 @@
 ## Source code
 
-https://github.com/somethingwentwell/openai-tgbot
+https://github.com/somethingwentwell/openai-botframework

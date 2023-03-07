@@ -1,0 +1,18 @@
+{
+    "title": "Fevaworks Azure OpenAI Lab",
+    "description": "Jupyter Notebook with Azure OpenAI and Cognitive Services",
+    "details": {
+      "intro": {
+        "text": "intro.md"
+      },
+      "steps": [
+        {
+          "text": "step1.md",
+          "foreground": "foreground.sh"
+        }
+      ]
+    },
+    "backend": {
+      "imageid": "ubuntu"
+    }
+  }
