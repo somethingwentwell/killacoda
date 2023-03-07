@@ -17,4 +17,4 @@ docker run -it --env-file .env warching/openai-tg-bot
 ```{{exec}}
 
 
-###3. Send a message to your bot in Telegram, and it should respond with a generated message
+### 3. Send a message to your bot in Telegram, and it should respond with a generated message
