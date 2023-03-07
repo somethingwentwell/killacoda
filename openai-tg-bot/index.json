@@ -1,0 +1,22 @@
+{
+    "title": "Telegram Bot with OpenAI GPT3",
+    "description": "Learn how to build a Telegram bot that uses Azure OpenAI's GPT-3 to generate responses to user messages.",
+    "details": {
+      "intro": {
+        "text": "intro.md"
+      },
+      "steps": [
+        {
+          "text": "step1.md"
+        }
+      ]
+    },
+    "assets": {
+        "host01": [
+          {"file": ".env", "target": "~/", "chmod": "+w"}
+        ]
+    },
+    "backend": {
+      "imageid": "ubuntu"
+    }
+  }
