@@ -7,7 +7,7 @@ git clone https://github.com/somethingwentwell/fevaworks-ai-2023.git
 docker run -d -p 8888:8888 -v $(pwd)/fevaworks-ai-2023:/home/jovyan/work -e JUPYTER_TOKEN="lab" jupyter/minimal-notebook
 
 # Wait for the Docker container to be up and running
-until docker logs $(docker ps -lq) 2>&1 | grep -q "JupyterLab .* is running at:"
+until docker logs $(docker ps -lq) 2>&1 | grep -q "Serving notebooks from local directory: /home/jovyan"
 do
   sleep 1
 done
