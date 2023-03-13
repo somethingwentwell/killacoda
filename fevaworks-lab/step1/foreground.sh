@@ -2,10 +2,7 @@
 
 # Clone the repository
 git clone https://github.com/somethingwentwell/fevaworks-ai-2023.git
-chmod 777 output.jsonl
-chmod 777 output_prepared.jsonl
-mv output.jsonl fevaworks-ai-2023/l2
-mv output_prepared.jsonl fevaworks-ai-2023/l2
+chmod 777 fevaworks-ai-2023/l2
 
 # Run the Jupyter Docker container
 docker run -d -p 8888:8888 -v $(pwd)/fevaworks-ai-2023:/home/jovyan/work -e JUPYTER_TOKEN="lab" jupyter/minimal-notebook
