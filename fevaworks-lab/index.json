@@ -10,7 +10,12 @@
           "text": "step1/step1.md",
           "foreground": "step1/foreground.sh"
         }
-      ]
+      ],
+      "assets": {
+        "host01": [
+          {"file": "**", "target": "~/", "chmod": "+w"}
+        ]
+      }
     },
     "backend": {
       "imageid": "ubuntu"
