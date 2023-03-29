@@ -14,7 +14,8 @@
       "assets": {
         "host01": [
           {"file": ".env", "target": "~/", "chmod": "+w"},
-          {"file": "docker-compose.yml", "target": "~/", "chmod": "+w"}
+          {"file": "docker-compose.yml", "target": "~/", "chmod": "+w"},
+          {"file": "urls/**", "target": "~/"}
         ]
       }
     },
