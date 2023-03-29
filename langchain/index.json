@@ -1,0 +1,22 @@
+{
+    "title": "Azure Bot with Langchain + OpenAI GPT3",
+    "description": "Learn how to build a Azure bot that uses Langchain to generate responses to user messages.",
+    "details": {
+      "intro": {
+        "text": "intro.md"
+      },
+      "steps": [
+        {
+          "text": "step1.md"
+        }
+      ],
+      "assets": {
+        "host01": [
+          {"file": "**", "target": "~/", "chmod": "+w"}
+        ]
+      }
+    },
+    "backend": {
+      "imageid": "ubuntu"
+    }
+  }
