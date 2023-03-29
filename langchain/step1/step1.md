@@ -13,12 +13,6 @@ nano .env
 ### 2. Run the bot using Docker Compose:
 
 ```
-docker-compose up -d
-```{{exec}}
-
-or
-
-```
 docker compose up -d
 ```{{exec}}
 
