@@ -16,10 +16,18 @@ nano .env
 docker compose up -d
 ```{{exec}}
 
+The Langchain API will first read the subfolders in folder [pdfs, markdowns, txts, urls] and load the data for indexing.
+
+You can go to urls folder to check with the example in this lab.
+
+```
+cd urls
+```{{exec}}
+
 
 ### 3. Test the API
 
-Observe the log by:
+Opena a new tab and observe the log by:
 
 ```
 docker logs root-test-lc-api-1 --follow
