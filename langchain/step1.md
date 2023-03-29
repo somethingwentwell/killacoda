@@ -28,7 +28,7 @@ docker compose up -d
 Observe the log by:
 
 ```
-docker logs azure-openai-langchain-bot-test-lc-api-1 --follow
+docker logs root-test-lc-api-1 --follow
 ```{{exec}}
 
 Test the API:
